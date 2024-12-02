@@ -1,0 +1,11 @@
+- hosts: farm
+  roles:
+    - farm
+
+- hosts: tulip
+  roles:
+    - tulip
+
+- hosts: runner
+  roles:
+    - runner
